@@ -20,7 +20,7 @@ List of modules to be included in the F27 Server compose
 |**haproxy** | | | | |
 |**perl** | | | | |
 |**postgresql** | | | | |
-|**mongodb ** | | | | |
+|**mongodb** | | | | |
 |**perl-libintl-perl** | | | | |
 |**perl-Unicode-EastAsianWidth** | | | | |
 |**httpd** | | | | |
