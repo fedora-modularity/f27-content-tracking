@@ -4,6 +4,8 @@ List of modules to be included in the F27 Server compose
 
 Modules and their dependencies are still being defined in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
 
+The issues tracker is also tracking work items from other teams that are required to make this work happen.
+
 ## Committed (blocking release)
 
 Requirements from the Server WG:
