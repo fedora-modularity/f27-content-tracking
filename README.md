@@ -2,6 +2,8 @@
 
 List of modules to be included in the F27 Server compose
 
+Modules and their dependencies are still being defined in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
+
 ## Committed (blocking release)
 
 Requirements from the Server WG:
@@ -10,6 +12,9 @@ Requirements from the Server WG:
 * `PostgreSQL`
 * `NetworkManager`
 * `storaged`
+
+What is needed in order to make an image:
+* `installer`
 
 Runtime dependencies (not complete):
 * `Java`
