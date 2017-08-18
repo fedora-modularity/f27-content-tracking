@@ -26,10 +26,20 @@ Runtime dependencies (not complete):
 * `httpd`
 * `Samba`
 * `Tomcat`
+* `389-ds`
+* `bind`
+* `krb5`
+* `sssd`
+* `pki`
+* `resteasy`
+* `storage-devices`
 
 Build dependencies (not complete even more):
 * `systemtap`
 * `autotools`
+* `gtk2`
+* `gtk3`
+* `texlive`
 
 ## Targeted (planned but not blocking)
 
