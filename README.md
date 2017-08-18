@@ -10,7 +10,7 @@ The issues tracker is also tracking work items from other teams that are require
 
 Requirements from the Server WG:
 * `FreeIPA`
-* `Cockpit`
+* `Cockpit` - in the Platform module
 * `PostgreSQL`
 * `NetworkManager`
 * `storaged`
