@@ -22,7 +22,7 @@ Runtime dependencies (not complete):
 * `Java`
 * `Python 2`
 * `Python 3`
-* `Perl`
+* `Perl` - [Build **succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964)
 * `httpd`
 * `Samba`
 * `Tomcat`
