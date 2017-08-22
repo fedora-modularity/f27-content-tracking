@@ -49,6 +49,16 @@ Some of the remaining F26 Boltron modules. Will be defined when the Committed li
 
 Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
 
+Repository exists already under https://github.com/modularity-modules/:
+* `mariadb`
+* `mongodb`
+* `nginx`
+* `varnish`
+* `nodejs`
+* `ruby`
+* `php`
+
+Repository not exists under https://github.com/modularity-modules/ yet:
 * `mysql`
   (Packages: community-mysql, community-mysql-server, community-mysql-devel, community-mysql-embedded, community-mysql-embedded-devel)
 * cassandra`
