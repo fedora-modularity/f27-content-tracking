@@ -49,3 +49,16 @@ Some of the remaining F26 Boltron modules. Will be defined when the Committed li
 
 Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
 
+* `mysql`
+  (Packages: community-mysql, community-mysql-server, community-mysql-devel, community-mysql-embedded, community-mysql-embedded-devel)
+* cassandra`
+  (Packages: cassandra, cassandra-server)
+* `redis`
+  (Packages: redis)
+* `sqlite`
+  (Packages: sqlite, sqlite-devel)
+* `nis`
+  (Packages: ypserv,  ypbind,  yp-tools)
+* `passenger`
+  (Packages: passenger, mod_passenger)
+
