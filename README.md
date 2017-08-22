@@ -57,18 +57,9 @@ Repository exists already under https://github.com/modularity-modules/:
 * `nodejs`
 * `ruby`
 * `php`
-
-Repository not exists under https://github.com/modularity-modules/ yet:
 * `mysql`
-  (Packages: community-mysql, community-mysql-server, community-mysql-devel, community-mysql-embedded, community-mysql-embedded-devel)
-* cassandra`
-  (Packages: cassandra, cassandra-server)
+* `cassandra`
 * `redis`
-  (Packages: redis)
 * `sqlite`
-  (Packages: sqlite, sqlite-devel)
 * `nis`
-  (Packages: ypserv,  ypbind,  yp-tools)
 * `passenger`
-  (Packages: passenger, mod_passenger)
-
