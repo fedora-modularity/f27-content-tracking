@@ -66,3 +66,6 @@ Repository exists already under https://github.com/modularity-modules/:
 * `redis`
 * `nis`
 * `passenger`
+* `boost`
+* `policycoreutils+libselinux`
+* `libdb`
