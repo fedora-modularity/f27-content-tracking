@@ -16,7 +16,7 @@ Requirements from the Server WG:
 * `storaged`
 
 What is needed in order to make an image:
-* `installer`
+* `installer` - [Build **succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816)
 
 Runtime dependencies (not complete):
 * `Java`
