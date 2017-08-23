@@ -33,6 +33,7 @@ Runtime dependencies (not complete):
 * `pki`
 * `resteasy`
 * `storage-devices`
+* `sqlite`
 
 Build dependencies (not complete even more):
 * `systemtap`
@@ -60,6 +61,5 @@ Repository exists already under https://github.com/modularity-modules/:
 * `mysql`
 * `cassandra`
 * `redis`
-* `sqlite`
 * `nis`
 * `passenger`
