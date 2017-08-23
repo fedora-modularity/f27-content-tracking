@@ -20,8 +20,10 @@ What is needed in order to make an image:
 
 Runtime dependencies (not complete):
 * `Java`
-* `Python 2`
-* `Python 3`
+* `python2`
+* `python2-ecosystem`
+* `python3`
+* `python3-ecosystem`
 * `Perl` - [Build **succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964)
 * `httpd`
 * `Samba`
