@@ -37,16 +37,17 @@ Runtime dependencies (not complete):
 * `storage-devices`
 * `sqlite`
 
+
+## Targeted (planned but not blocking)
+
+Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
+
 Build dependencies (not complete even more):
 * `systemtap`
 * `autotools`
 * `gtk2`
 * `gtk3`
 * `texlive`
-
-## Targeted (planned but not blocking)
-
-Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
 
 ## Proposed (stretch goal)
 
