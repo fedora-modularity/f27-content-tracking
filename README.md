@@ -9,33 +9,42 @@ The issues tracker is also tracking work items from other teams that are require
 ## Committed (blocking release)
 
 Requirements from the Server WG:
-* `FreeIPA`
-* `Cockpit` - in the Platform module
-* `PostgreSQL`
-* `NetworkManager`
-* `storaged`
+
+| Module | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|
+| `FreeIPA ` | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
+| `Cockpit` | - | - | - | In Platform |
+| `PostgreSQL` | [postgresql](https://github.com/modularity-modules/postgresql) | | | | |
+| `NetworkManager` | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
+| `storaged` | [storaged](https://github.com/modularity-modules/storaged) | | | | |
 
 What is needed in order to make an image:
-* `installer` - [Build **succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816)
+
+| Module | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|
+| `installer` | [installer](https://github.com/modularity-modules/installer) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816) |
 
 Runtime dependencies (not complete):
-* `Java`
-* `python2`
-* `python2-ecosystem`
-* `python3`
-* `python3-ecosystem`
-* `Perl` - [Build **succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964)
-* `httpd`
-* `Samba`
-* `Tomcat`
-* `389-ds`
-* `bind`
-* `krb5`
-* `sssd`
-* `pki`
-* `resteasy`
-* `storage-devices`
-* `sqlite`
+
+| Module | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|
+| `Java` | [java](https://github.com/modularity-modules/java) | | | |
+| `python2` | [python2](https://github.com/modularity-modules/python2) | | | |
+| `python2-ecosystem` | [python2](https://github.com/modularity-modules/python2) | | | |
+| `python3` | [python3](https://github.com/modularity-modules/python3) | | | |
+| `python3-ecosystem` | [python3](https://github.com/modularity-modules/python3) | | | |
+| `Perl` | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
+| `httpd` | [httpd](https://github.com/modularity-modules/httpd) | | | |
+| `Samba` | [samba](https://github.com/modularity-modules/samba) | | | |
+| `Tomcat` | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
+| `389-ds` | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
+| `bind` | [bind](https://github.com/modularity-modules/bind) | | | |
+| `krb5` | [krb5](https://github.com/modularity-modules/krb5) | | | |
+| `sssd` | [sssd](https://github.com/modularity-modules/sssd) | | | |
+| `pki` | [pki](https://github.com/modularity-modules/pki) | | | |
+| `resteasy` | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
+| `storage-devices` | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
+| `sqlite` | [sqlite](https://github.com/modularity-modules/sqlite) | | | |
 
 
 ## Targeted (planned but not blocking)
@@ -43,26 +52,32 @@ Runtime dependencies (not complete):
 Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
 
 Build dependencies (not complete even more):
-* `systemtap`
-* `autotools`
-* `gtk2`
-* `gtk3`
-* `texlive`
+
+| Module | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|
+| `systemtap` | | | | |
+| `autotools` | | | | |
+| `gtk2` | | | | |
+| `gtk3` | | | | |
+| `texlive` | | | | |
 
 ## Proposed (stretch goal)
 
 Some of the remaining F26 Boltron modules. Will be defined when the Committed list is complete.
 
 Repository exists already under https://github.com/modularity-modules/:
-* `mariadb`
-* `mongodb`
-* `nginx`
-* `varnish`
-* `nodejs`
-* `ruby`
-* `php`
-* `mysql`
-* `cassandra`
-* `redis`
-* `nis`
-* `passenger`
+
+| Module | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|
+| `mariadb` | | | | |
+| `mongodb` | | | | |
+| `nginx` | | | | |
+| `varnish` | | | | |
+| `nodejs` | | | | |
+| `ruby` | | | | |
+| `php` | | | | |
+| `mysql` | | | | |
+| `cassandra` | | | | |
+| `redis` | | | | |
+| `nis` | | | | |
+| `passenger` | | | | |
