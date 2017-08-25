@@ -14,7 +14,7 @@ Requirements from the Server WG:
 |---|---|---|---|---|
 | `FreeIPA ` | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
 | `Cockpit` | - | - | - | In Platform |
-| `PostgreSQL` | [postgresql](https://github.com/modularity-modules/postgresql) | | | | |
+| `PostgreSQL` | [postgresql](https://github.com/modularity-modules/postgresql) | | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
 | `NetworkManager` | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
 | `storaged` | [storaged](https://github.com/modularity-modules/storaged) | | | | |
 
