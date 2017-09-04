@@ -10,41 +10,42 @@ The issues tracker is also tracking work items from other teams that are require
 
 Requirements from the Server WG:
 
-| Module | Definition | Dep report | Dist git | Build |
+| Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `FreeIPA ` | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
-| `Cockpit` | - | - | - | In Platform |
-| `PostgreSQL` | [postgresql](https://github.com/modularity-modules/postgresql) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
-| `NetworkManager` | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
-| `storaged` | [storaged](https://github.com/modularity-modules/storaged) | | | | |
+| `FreeIPA ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
+| `Cockpit` | | - | - | - | In Platform |
+| `PostgreSQL` | | [postgresql](https://github.com/modularity-modules/postgresql) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
+| `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
+| `storaged` | | [storaged](https://github.com/modularity-modules/storaged) | | | | |
 
 What is needed in order to make an image:
 
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `installer` | [installer](https://github.com/modularity-modules/installer) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816) |
+| `installer` | | [installer](https://github.com/modularity-modules/installer) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816) |
 
 Runtime dependencies (not complete):
 
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `Java` | [java](https://github.com/modularity-modules/java) | | | |
-| `python2` | [python2](https://github.com/modularity-modules/python2) | | | |
-| `python2-ecosystem` | [python2](https://github.com/modularity-modules/python2) | | | |
-| `python3` | [python3](https://github.com/modularity-modules/python3) | | | |
-| `python3-ecosystem` | [python3](https://github.com/modularity-modules/python3) | | | |
-| `Perl` | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
-| `httpd` | [httpd](https://github.com/modularity-modules/httpd) | | | |
-| `Samba` | [samba](https://github.com/modularity-modules/samba) | | | |
-| `Tomcat` | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
-| `389-ds` | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
-| `bind` | [bind](https://github.com/modularity-modules/bind) | | | |
-| `krb5` | [krb5](https://github.com/modularity-modules/krb5) | | | |
-| `sssd` | [sssd](https://github.com/modularity-modules/sssd) | | | |
-| `pki` | [pki](https://github.com/modularity-modules/pki) | | | |
-| `resteasy` | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
-| `storage-devices` | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
-| `sqlite` | [sqlite](https://github.com/modularity-modules/sqlite) | | | |
+| `Java` | | [java](https://github.com/modularity-modules/java) | | | |
+| `python2` | | [python2](https://github.com/modularity-modules/python2) | | | |
+| `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | | |
+| `python3` | | [python3](https://github.com/modularity-modules/python3) | | | |
+| `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | | |
+| `Perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
+| `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | | |
+| `Samba` | asn | [samba](https://github.com/modularity-modules/samba) | | | |
+| `Tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
+| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
+| `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | | |
+| `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | | |
+| `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | | |
+| `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | | |
+| `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
+| `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
+| `sqlite` | | [sqlite](https://github.com/modularity-modules/sqlite) | | | |
+| `selinux` | lvrabec | | | | |
 
 
 ## Targeted (planned but not blocking)
@@ -55,12 +56,12 @@ Build dependencies (not complete even more):
 
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `systemtap` | | | | |
-| `autotools` | | | [link](https://src.fedoraproject.org/modules/autotools) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965063) |
-| `help2man` | | | [link](https://src.fedoraproject.org/modules/help2man) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965055) |
-| `gtk2` | | | | |
-| `gtk3` | | | | |
-| `texlive` | | | | |
+| `systemtap` | | | | | |
+| `autotools` | | | | [link](https://src.fedoraproject.org/modules/autotools) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965063) |
+| `help2man` | | | | [link](https://src.fedoraproject.org/modules/help2man) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965055) |
+| `gtk2` | | | | | |
+| `gtk3` | | | | | |
+| `texlive` | | | | | |
 
 ## Proposed (stretch goal)
 
@@ -70,15 +71,15 @@ Repository exists already under https://github.com/modularity-modules/:
 
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `mariadb` | | | | |
-| `mongodb` | | | | |
-| `nginx` | | | | |
-| `varnish` | | | | |
-| `nodejs` | | | | |
-| `ruby` | | | | |
-| `php` | | | | |
-| `mysql` | | | | |
-| `cassandra` | | | | |
-| `redis` | | | | |
-| `nis` | | | | |
-| `passenger` | | | | |
+| `mariadb` | | | | | |
+| `mongodb` | | | | | |
+| `nginx` | | | | | |
+| `varnish` | | | | | |
+| `nodejs` | | | | | |
+| `ruby` | | | | | |
+| `php` | | | | | |
+| `mysql` | | | | | |
+| `cassandra` | | | | | |
+| `redis` | | | | | |
+| `nis` | | | | | |
+| `passenger` | | | | | |
