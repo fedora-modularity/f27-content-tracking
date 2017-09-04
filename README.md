@@ -28,7 +28,6 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
-
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
 | `X11-base` | | | | | |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | | |
@@ -50,6 +49,7 @@ Runtime dependencies (not complete):
 | `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | | |
 | `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
 | `tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
+
 
 ## Targeted (planned but not blocking)
 
