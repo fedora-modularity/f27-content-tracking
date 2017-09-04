@@ -11,7 +11,7 @@ The issues tracker is also tracking work items from other teams that are require
 Requirements from the Server WG:
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | `Cockpit` | | - | - | - | In Platform |
 | `FreeIPA ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
@@ -20,14 +20,14 @@ Requirements from the Server WG:
 
 What is needed in order to make an image:
 
-| Module | Definition | Dep report | Dist git | Build |
-|---|---|---|---|---|
+| Module | Owner | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|---|
 | `installer` | | [installer](https://github.com/modularity-modules/installer) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/816) |
 
 Runtime dependencies (not complete):
 
-| Module | Definition | Dep report | Dist git | Build |
-|---|---|---|---|---|
+| Module | Owner | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|---|
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
 | `Java` | | [java](https://github.com/modularity-modules/java) | | | |
 | `Perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
@@ -54,8 +54,8 @@ Some of the remaining F26 Boltron modules. Will be defined when the Committed li
 
 Build dependencies (not complete even more):
 
-| Module | Definition | Dep report | Dist git | Build |
-|---|---|---|---|---|
+| Module | Owner | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|---|
 | `autotools` | | | | [link](https://src.fedoraproject.org/modules/autotools) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965063) |
 | `gtk2` | | | | | |
 | `gtk3` | | | | | |
