@@ -12,10 +12,10 @@ Requirements from the Server WG:
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
-| `Cockpit` | | - | - | - | In Platform |
-| `FreeIPA ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
+| `cockpit` | | - | - | - | In Platform |
+| `freeipa ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | | | |
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | | | | |
-| `PostgreSQL` | | [postgresql](https://github.com/modularity-modules/postgresql) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
+| `postgresql` | | [postgresql](https://github.com/modularity-modules/postgresql) | | [postgresql](https://src.fedoraproject.org/modules/postgresql) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
 | `storaged` | | [storaged](https://github.com/modularity-modules/storaged) | | | | |
 
 What is needed in order to make an image:
@@ -30,24 +30,23 @@ Runtime dependencies (not complete):
 |---|---|---|---|---|---|
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | | | |
-| `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | | |
+| `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | |
-| `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | | |
+| `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | |
 | `java` | | [java](https://github.com/modularity-modules/java) | | | |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | | |
-| `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | | |
-| `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
+| `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | |
+| `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | [perl](https://src.fedoraproject.org/modules/perl) | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
 | `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | | |
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | | |
-| `python2` | | [python2](https://github.com/modularity-modules/python2) | | | |
+| `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | |
 | `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | | |
-| `python3` | | [python3](https://github.com/modularity-modules/python3) | | | |
+| `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
-| `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | | |
-| `selinux` | lvrabec | | | | |
-| `sqlite` | | [sqlite](https://github.com/modularity-modules/sqlite) | | | |
-| `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | | |
-| `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
+| `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | [samba](https://src.fedoraproject.org/modules/samba) | |
+| `selinux` | lvrabec | | | [selinux](https://src.fedoraproject.org/modules/selinux) | |
+| `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | [sssd](https://src.fedoraproject.org/modules/sssd) | |
+| `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | [storage-devices](https://src.fedoraproject.org/modules/storage-devices) | |
 | `tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
 
 
