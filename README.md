@@ -59,7 +59,7 @@ Build dependencies (not complete even more):
 | `autotools` | | | | [link](https://src.fedoraproject.org/modules/autotools) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965063) |
 | `gtk2` | | | | | |
 | `gtk3` | | | | | |
-| `help2man` | | | | [link](https://src.fedoraproject.org/modules/help2man) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965055) |
+| `help2man` | ppisar | | | [link](https://src.fedoraproject.org/modules/help2man) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965055) |
 | `systemtap` | | | | | |
 | `texlive` | | | | | |
 
