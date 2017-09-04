@@ -29,13 +29,13 @@ Runtime dependencies (not complete):
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
-| `X11-base` | | | | | |
+| `X11-base` | [X11-base](https://github.com/modularity-modules/X11-base) | | | | |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | | |
-| `fonts` | | | | | |
+| `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | |
 | `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | | |
 | `java` | | [java](https://github.com/modularity-modules/java) | | | |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | | |
-| `networking-base` | | | | | |
+| `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | | |
 | `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
 | `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | | |
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | | |
