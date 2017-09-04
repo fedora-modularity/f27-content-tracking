@@ -32,7 +32,7 @@ Runtime dependencies (not complete):
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | | | |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | |
-| `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | |
+| `httpd` | luhliari | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | |
 | `java` | | [java](https://github.com/modularity-modules/java) | | | |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | | |
 | `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | |
