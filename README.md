@@ -74,10 +74,10 @@ Repository exists already under https://github.com/modularity-modules/:
 
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
-| `cassandra` | https://github.com/modularity-modules/cassandra | | | | |
+| `cassandra` | [cassandra](https://github.com/modularity-modules/cassandra) | | | | |
 | `mariadb` | | | | | |
 | `mongodb` | | | | | |
-| `mysql` | https://github.com/modularity-modules/mysql | | | | |
+| `mysql` | [mysql](https://github.com/modularity-modules/mysql) | | | | |
 | `nginx` | | | | | |
 | `nis` | | | | | |
 | `nodejs` | | | | | |
