@@ -56,7 +56,8 @@ Build dependencies (not complete even more):
 | Module | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|
 | `systemtap` | | | | |
-| `autotools` | | | | |
+| `autotools` | | | [link](https://src.fedoraproject.org/modules/autotools) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965063) |
+| `help2man` | | | [link](https://src.fedoraproject.org/modules/help2man) | [succeeded](https://koji.fedoraproject.org/koji/buildinfo?buildID=965055) |
 | `gtk2` | | | | |
 | `gtk3` | | | | |
 | `texlive` | | | | |
