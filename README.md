@@ -41,7 +41,7 @@ Runtime dependencies (not complete):
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | | |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | |
 | `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | | |
-| `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | |
+| `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/859) |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
 | `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | [samba](https://src.fedoraproject.org/modules/samba) | |
 | `selinux` | lvrabec | | | [selinux](https://src.fedoraproject.org/modules/selinux) | |
