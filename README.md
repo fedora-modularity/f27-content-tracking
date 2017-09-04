@@ -28,25 +28,28 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
+
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | | |
-| `Java` | | [java](https://github.com/modularity-modules/java) | | | |
-| `Perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
-| `Samba` | asn | [samba](https://github.com/modularity-modules/samba) | | | |
-| `Tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
+| `X11-base` | | | | | |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | | |
+| `fonts` | | | | | |
 | `httpd` | | [httpd](https://github.com/modularity-modules/httpd) | | | |
+| `java` | | [java](https://github.com/modularity-modules/java) | | | |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | | |
+| `networking-base` | | | | | |
+| `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
 | `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | | |
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | | |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | | |
 | `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | | |
 | `python3` | | [python3](https://github.com/modularity-modules/python3) | | | |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | | |
+| `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | | |
 | `selinux` | lvrabec | | | | |
 | `sqlite` | | [sqlite](https://github.com/modularity-modules/sqlite) | | | |
 | `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | | |
 | `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | | |
-
+| `tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | | |
 
 ## Targeted (planned but not blocking)
 
