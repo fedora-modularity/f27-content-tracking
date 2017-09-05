@@ -16,7 +16,7 @@ Requirements from the Server WG:
 | `freeipa ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | [freeipa](https://src.fedoraproject.org/modules/freeipa) | | |
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | - | in networking-base |
 | `postgresql` | | [postgresql](https://github.com/modularity-modules/postgresql) | | [postgresql](https://src.fedoraproject.org/modules/postgresql) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/831) |
-| `storaged` | | [storaged](https://github.com/modularity-modules/storaged) | | | | |
+| `udisks2` | | [udisks2](https://github.com/modularity-modules/udisks2) | | | [udisks2](https://src.fedoraproject.org/modules/udisks2) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/8881) |
 
 What is needed in order to make an image:
 
@@ -32,7 +32,7 @@ Runtime dependencies (not complete):
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | |  [X11-base](https://src.fedoraproject.org/modules/X11-base) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/868) |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/878) |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/874) |
-| `httpd` | luhliari | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | |
+| `httpd` | luhliari | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/884) |
 | `java` | | [java](https://github.com/modularity-modules/java) | | [java](https://src.fedoraproject.org/modules/java) | |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | [krb5](https://src.fedoraproject.org/modules/krb5) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/872) |
 | `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | |
