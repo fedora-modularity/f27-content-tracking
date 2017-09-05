@@ -40,7 +40,7 @@ Runtime dependencies (not complete):
 | `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://src.fedoraproject.org/modules/pki) | |
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem) | |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/867) |
-| `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem) | |
+| `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
 | `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/859) |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | [resteasy](https://src.fedoraproject.org/modules/resteasy) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
 | `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | [samba](https://src.fedoraproject.org/modules/samba) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/887) |
