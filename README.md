@@ -28,18 +28,18 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
-| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | |
+| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/904) |
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | |  [X11-base](https://src.fedoraproject.org/modules/X11-base) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/868) |
 | `apache-commons` | | | | [apache-commons](https://src.fedoraproject.org/modules/apache-commons) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/901) |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/878) |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/874) |
 | `httpd` | luhliari | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/884) |
-| `java` | | [java](https://github.com/modularity-modules/java) | | [java](https://src.fedoraproject.org/modules/java) | |
+| `java` | | [java](https://github.com/modularity-modules/java) | | [java](https://src.fedoraproject.org/modules/java) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/882) |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | [krb5](https://src.fedoraproject.org/modules/krb5) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/872) |
-| `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | |
+| `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/906) |
 | `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | [perl](https://src.fedoraproject.org/modules/perl) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/805) |
-| `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://src.fedoraproject.org/modules/pki) | |
-| `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem) | |
+| `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://src.fedoraproject.org/modules/pki) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/905) |
+| `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/902) |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/867) |
 | `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
 | `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/859) |
