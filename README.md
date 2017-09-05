@@ -30,7 +30,7 @@ Runtime dependencies (not complete):
 |---|---|---|---|---|---|
 | `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | |
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | |  [X11-base](https://src.fedoraproject.org/modules/X11-base) | |
-| `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | |
+| `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=2092) |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | |
 | `httpd` | luhliari | [httpd](https://github.com/modularity-modules/httpd) | | [httpd](https://src.fedoraproject.org/modules/httpd) | |
 | `java` | | [java](https://github.com/modularity-modules/java) | | [java](https://src.fedoraproject.org/modules/java) | |
