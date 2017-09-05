@@ -28,7 +28,7 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
-| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://github.com/modularity-modules/389-ds) | |
+| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | |
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | |  [X11-base](https://src.fedoraproject.org/modules/X11-base) | |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | |
 | `fonts` | | [fonts](https://github.com/modularity-modules/fonts) | | | |
@@ -37,10 +37,10 @@ Runtime dependencies (not complete):
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | [krb5](https://src.fedoraproject.org/modules/krb5) | |
 | `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | |
 | `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | [perl](https://src.fedoraproject.org/modules/perl) | [**succeeded**](https://koji.fedoraproject.org/koji/packages?tagID=1964) |
-| `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://github.com/modularity-modules/pki) | |
-| `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://github.com/modularity-modules/python2-ecosystem) | |
+| `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://src.fedoraproject.org/modules/pki) | |
+| `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem) | |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | |
-| `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | [python3-ecosystem](https://github.com/modularity-modules/python3-ecosystem) | |
+| `python3-ecosystem` | | [python3](https://github.com/modularity-modules/python3) | | [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem) | |
 | `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/859) |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | [resteasy](https://src.fedoraproject.org/modules/resteasy) | |
 | `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | [samba](https://src.fedoraproject.org/modules/samba) | |
