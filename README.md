@@ -44,7 +44,6 @@ Runtime dependencies (not complete):
 | `python3` | | [python3](https://github.com/modularity-modules/python3) | | [python3](https://src.fedoraproject.org/modules/python3) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/859) |
 | `resteasy` | | [resteasy](https://github.com/modularity-modules/resteasy) | | [resteasy](https://src.fedoraproject.org/modules/resteasy) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
 | `samba` | asn | [samba](https://github.com/modularity-modules/samba) | | [samba](https://src.fedoraproject.org/modules/samba) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/887) |
-| `selinux` | lvrabec | | | [selinux](https://src.fedoraproject.org/modules/selinux) | |
 | `sssd` | lslebodn, jhrozek | [sssd](https://github.com/modularity-modules/sssd) | | [sssd](https://src.fedoraproject.org/modules/sssd) | |
 | `storage-devices` | | [storage-devices](https://github.com/modularity-modules/storage-devices) | | [storage-devices](https://src.fedoraproject.org/modules/storage-devices) | |
 | `tomcat` | | [tomcat](https://github.com/modularity-modules/tomcat) | | [tomcat](https://src.fedoraproject.org/modules/tomcat) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/870) |
