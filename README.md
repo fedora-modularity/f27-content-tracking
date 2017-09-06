@@ -28,7 +28,7 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Build |
 |---|---|---|---|---|---|
-| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | [building](https://mbs.fedoraproject.org/module-build-service/1/module-builds/904) |
+| `389-ds` | mreynolds | [389-ds](https://github.com/modularity-modules/389-ds) | | [389-ds](https://src.fedoraproject.org/modules/389-ds) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/914) |
 | `X11-base` | karsten | [X11-base](https://github.com/modularity-modules/X11-base) | |  [X11-base](https://src.fedoraproject.org/modules/X11-base) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/868) |
 | `apache-commons` | | | | [apache-commons](https://src.fedoraproject.org/modules/apache-commons) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/901) |
 | `bind` | thozza / pemensik | [bind](https://github.com/modularity-modules/bind) | | [bind](https://src.fedoraproject.org/modules/bind) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/878) |
