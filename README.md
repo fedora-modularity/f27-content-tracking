@@ -70,12 +70,12 @@ Some of the remaining F26 Boltron modules. Will be defined when the Committed li
 
 Repository exists already under https://github.com/modularity-modules/:
 
-| Module | Definition | Dep report | Dist git | Build |
-|---|---|---|---|---|
-| `cassandra` | [cassandra](https://github.com/modularity-modules/cassandra) | | | [cassandra](https://src.fedoraproject.org/modules/cassandra) | |
+| Module | Owner | Definition | Dep report | Dist git | Build |
+|---|---|---|---|---|---|
+| `cassandra` | | [cassandra](https://github.com/modularity-modules/cassandra) | | [cassandra](https://src.fedoraproject.org/modules/cassandra) | |
 | `mariadb` | | | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
 | `mongodb` | | | | | |
-| `mysql` | [mysql](https://github.com/modularity-modules/mysql) | | | [mysql](https://src.fedoraproject.org/modules/mysql) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
+| `mysql` | | [mysql](https://github.com/modularity-modules/mysql) | | [mysql](https://src.fedoraproject.org/modules/mysql) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 | `nginx` | | | | | |
 | `nis` | | | | | |
 | `nodejs` | | | | | |
