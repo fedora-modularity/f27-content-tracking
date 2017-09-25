@@ -38,7 +38,7 @@ Runtime dependencies (not complete):
 | `java` | | [java](https://github.com/modularity-modules/java) | | [java](https://src.fedoraproject.org/modules/java) | [**2017-09-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/913) |
 | `krb5` | rharwood | [krb5](https://github.com/modularity-modules/krb5) | | [krb5](https://src.fedoraproject.org/modules/krb5) | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/872) |
 | `networking-base` | | [networking-base](https://github.com/modularity-modules/networking-base) | | [networking-base](https://src.fedoraproject.org/modules/networking-base) | [**2017-09-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/985) |
-| `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | [perl](https://src.fedoraproject.org/modules/perl) | [** 2017-09-19**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/960) |
+| `perl` | ppisar, jplesnik | [perl](https://github.com/modularity-modules/perl) | | [perl](https://src.fedoraproject.org/modules/perl) | [**2017-09-19**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/960) |
 | `pki` | mharmsen | [pki](https://github.com/modularity-modules/pki) | | [pki](https://src.fedoraproject.org/modules/pki) | [**2017-09-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/915) |
 | `python2-ecosystem` | | [python2](https://github.com/modularity-modules/python2) | | [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem) | [**2017-09-22**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1000) |
 | `python2` | | [python2](https://github.com/modularity-modules/python2) | | [python2](https://src.fedoraproject.org/modules/python2) | [**2017-09-22**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/996) |
@@ -58,10 +58,10 @@ Build dependencies (not complete even more):
 
 | Module | Owner | Definition | Dep report | Dist git | Successful build |
 |---|---|---|---|---|---|
-| `autotools` | | | | [link](https://src.fedoraproject.org/modules/autotools) | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/857) |
+| `autotools` | | | | [autotools](https://src.fedoraproject.org/modules/autotools) | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/857) |
 | `gtk2` | | | | | |
 | `gtk3` | | | | | |
-| `help2man` | ppisar | | | [link](https://src.fedoraproject.org/modules/help2man) | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/856) |
+| `help2man` | ppisar | | | [help2man](https://src.fedoraproject.org/modules/help2man) | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/856) |
 | `systemtap` | | | | | |
 | `texlive` | | | | | |
 
@@ -74,9 +74,9 @@ Repository exists already under https://github.com/modularity-modules/:
 | Module | Owner | Definition | Dep report | Dist git | Successful build |
 |---|---|---|---|---|---|
 | `cassandra` | | [cassandra](https://github.com/modularity-modules/cassandra) | | [cassandra](https://src.fedoraproject.org/modules/cassandra) | |
-| `mariadb` | | | | | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
+| `mariadb` | | | | | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
 | `mongodb` | | | | | |
-| `mysql` | | [mysql](https://github.com/modularity-modules/mysql) | | [mysql](https://src.fedoraproject.org/modules/mysql) | [**succeeded**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
+| `mysql` | | [mysql](https://github.com/modularity-modules/mysql) | | [mysql](https://src.fedoraproject.org/modules/mysql) | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 | `nginx` | | | | | |
 | `nis` | | | | | |
 | `nodejs` | | | | | |
