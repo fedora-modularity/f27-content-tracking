@@ -23,7 +23,7 @@ What is needed in order to make an image:
 
 | Module | Owner | Definition | Dep report | Dist git | Successful build |
 |---|---|---|---|---|---|
-| `installer` | | [installer](https://github.com/modularity-modules/installer) | | | [**2017-09-15**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/952) |
+| `installer` | | [installer](https://github.com/modularity-modules/installer) | | | [**2017-10-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1037) |
 
 Runtime dependencies (not complete):
 
