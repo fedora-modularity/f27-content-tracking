@@ -12,7 +12,7 @@ Requirements from the Server WG:
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-| `cloud-init ` |  | [cloud-init](https://github.com/modularity-modules/cloud-init) | | [cloud-init](https://src.fedoraproject.org/modules/cloud-init) | | [**2017-09-12**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/932) |
+| `cloud-init ` |  | [cloud-init](https://github.com/modularity-modules/cloud-init) | | [cloud-init](https://src.fedoraproject.org/modules/cloud-init) | | [**2017-10-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1042) |
 | `cockpit` | | - | - | - | | In Platform |
 | `freeipa ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | [freeipa](https://src.fedoraproject.org/modules/freeipa) | | [**2017-09-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/929) |
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | - | | in networking-base |
