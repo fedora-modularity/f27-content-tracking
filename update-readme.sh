@@ -14,7 +14,7 @@ for module in $modules; do
   if [ "x$latest_build" == "x" ]; then
      continue
   fi
-  module_line=$(grep "| \`$module\`" README.md)
+  module_line=$(grep -e "|[ ]*\`$module\`" README.md)
   field1=""
   field2=""
   field3=""
@@ -36,6 +36,6 @@ for module in $modules; do
 #        [**2017-10-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1037)
   fi
   module_str="| $field1 | $field2 | $field3 | $field4 | $field5 | $field6 | $field7 |"
-  sed -i -e "s@^| \`$module\`.*@$module_str@" README.md
+  sed -i -e "s@^|[ ]*\`$module\`.*@$module_str@" README.md
 done
 rm -f $built_modules
