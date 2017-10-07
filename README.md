@@ -30,7 +30,7 @@ Runtime dependencies (not complete):
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
 |  `389-ds`  |  mreynolds  |  [389-ds](https://github.com/modularity-modules/389-ds)  |   |  [389-ds](https://src.fedoraproject.org/modules/389-ds)  |   | [**2017-09-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/994) |
-|  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  | f27  | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1060) |
+|  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  |  f27  | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1060) |
 |  `apache-commons`  |   |   |   |  [apache-commons](https://src.fedoraproject.org/modules/apache-commons)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/901) |
 |  `bind`  |  thozza / pemensik  |  [bind](https://github.com/modularity-modules/bind)  |   |  [bind](https://src.fedoraproject.org/modules/bind)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/878) |
 |  `fonts`  |   |  [fonts](https://github.com/modularity-modules/fonts)  |   |   |   | [**2017-09-27**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1014) |
@@ -58,7 +58,7 @@ Build dependencies (not complete even more):
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  |   | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/857) |
+|  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  |   | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1065) |
 | `gtk2` | | | | | | |
 | `gtk3` | | | | | | |
 |  `help2man`  |  ppisar  |   |   |  [help2man](https://src.fedoraproject.org/modules/help2man)  |   | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/856) |
@@ -79,7 +79,7 @@ Repository exists already under https://github.com/modularity-modules/:
 |  `mysql`  |   |  [mysql](https://github.com/modularity-modules/mysql)  |   |  [mysql](https://src.fedoraproject.org/modules/mysql)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 |  `nginx`  |   |   |   |   |   | [**2017-07-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/722) |
 |  `nis`  |   |   |   |   |   | [**2017-07-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/703) |
-|  `nodejs`  |   |   |   |   |   | [**2017-09-25**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1007) |
+|  `nodejs`  |   |   |   |   |   | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1068) |
 | `passenger` | | | | | | |
 |  `php`  |   |   |   |   |   | [**2017-07-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/701) |
 | `redis` | | | | | | |
