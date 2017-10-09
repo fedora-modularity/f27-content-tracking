@@ -2,7 +2,7 @@
 
 List of modules to be included in the F27 Server Edition.
 
-To help packagesrs with getting the right dependnecies, module definitions are in the [modularity-modules](https://github.com/modularity-modules) space, and the dependency reports and initial modulemd files are generated in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
+To help packagers with getting the right dependencies, module definitions are in the [modularity-modules](https://github.com/modularity-modules) space, and the dependency reports and initial modulemd files are generated in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
 
 The issues tracker is also tracking work items from other teams that are required to make this work happen.
 
