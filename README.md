@@ -2,7 +2,7 @@
 
 List of modules to be included in the F27 Server Edition.
 
-To help packagesrs with getting the right dependnecies, module definitions are in the [modularity-modules](https://github.com/modularity-modules) space, and the dependency reports and initial modulemd files are generated in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
+To help packagers with getting the right dependencies, module definitions are in the [modularity-modules](https://github.com/modularity-modules) space, and the dependency reports and initial modulemd files are generated in the [dependency-reports](https://github.com/fedora-modularity/dependency-report) repository.
 
 The issues tracker is also tracking work items from other teams that are required to make this work happen.
 
@@ -29,7 +29,7 @@ Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `389-ds`  |  mreynolds  |  [389-ds](https://github.com/modularity-modules/389-ds)  |   |  [389-ds](https://src.fedoraproject.org/modules/389-ds)  |   | [**2017-09-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/994) |
+|  `389-ds`  |  mreynolds  |  [389-ds](https://github.com/modularity-modules/389-ds)  |   |  [389-ds](https://src.fedoraproject.org/modules/389-ds)  |  1.2  | [**2017-10-09**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1076) |
 |  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  |  f27  | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1060) |
 |  `apache-commons`  |   |   |   |  [apache-commons](https://src.fedoraproject.org/modules/apache-commons)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/901) |
 |  `bind`  |  thozza / pemensik  |  [bind](https://github.com/modularity-modules/bind)  |   |  [bind](https://src.fedoraproject.org/modules/bind)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/878) |
