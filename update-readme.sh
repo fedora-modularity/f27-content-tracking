@@ -3,7 +3,7 @@
 # updates the README.md with the latest successful builds
 # New builds will NOT be added automatically to that file !
 
-built_modules=`mktemp`
+built_modules="latest_builds.txt"
 
 echo "Getting list of module builds, this will take a while"
 mbs-build overview --finished --limit 800 | grep " ready " |  tee $built_modules
@@ -38,4 +38,3 @@ for module in $modules; do
   module_str="| $field1 | $field2 | $field3 | $field4 | $field5 | $field6 | $field7 |"
   sed -i -e "s@^|[ ]*\`$module\`.*@$module_str@" README.md
 done
-rm -f $built_modules
