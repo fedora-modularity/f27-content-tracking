@@ -15,7 +15,7 @@ Requirements from the Server WG:
 | `cloud-init ` |  | [cloud-init](https://github.com/modularity-modules/cloud-init) | | [cloud-init](https://src.fedoraproject.org/modules/cloud-init) | f27 | [**2017-10-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1042) |
 | `cockpit` | | - | - | - | | In Platform |
 | `freeipa ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | [freeipa](https://src.fedoraproject.org/modules/freeipa) | | [**2017-09-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/929) |
-| `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | - | | in networking-base |
+| `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | [networking-base](https://src.fedoraproject.org/modules/networking-base) | | in networking-base |
 |  `postgresql`  |   |  [postgresql](https://github.com/modularity-modules/postgresql)  |   |  [postgresql](https://src.fedoraproject.org/modules/postgresql)  |  9.6  | [**2017-10-09**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1080) |
 |  `udisks2`  |   |  [udisks2](https://github.com/modularity-modules/udisks2)  |   |  [udisks2](https://src.fedoraproject.org/modules/udisks2)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/881) |
 
