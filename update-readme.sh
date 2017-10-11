@@ -12,7 +12,7 @@ grep " ready " $all_module_builds | tee $built_modules
 modules=$(grep -e "^| " README.md | cut -d '|' -f 2| grep "\`" | sed -e "s/\`//g;s/ //")
 
 for module in $modules; do
-  latest_build=`grep -m 1 $module $built_modules | sed -e "s/ */ /"`
+  latest_build=`grep -m 1 -e "$module-[^-.]*-[^-.]*$"  $built_modules | sed -e "s/ */ /"`
   if [ "x$latest_build" == "x" ]; then
      continue
   fi
