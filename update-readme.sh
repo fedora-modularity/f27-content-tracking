@@ -3,10 +3,12 @@
 # updates the README.md with the latest successful builds
 # New builds will NOT be added automatically to that file !
 
-built_modules="latest_builds.txt"
+all_module_builds="latest_builds.txt"
+built_modules="latest_succeeded_builds.txt"
 
 echo "Getting list of module builds, this will take a while"
-mbs-build overview --finished --limit 800 | grep " ready " |  tee $built_modules
+mbs-build overview --finished --limit 800 | tee $all_module_builds
+grep " ready " $all_module_builds | tee $built_modules
 modules=$(grep -e "^| " README.md | cut -d '|' -f 2| grep "\`" | sed -e "s/\`//g;s/ //")
 
 for module in $modules; do
