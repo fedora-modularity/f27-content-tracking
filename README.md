@@ -74,7 +74,7 @@ Repository exists already under https://github.com/modularity-modules/:
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
 |  `cassandra`  |   |  [cassandra](https://github.com/modularity-modules/cassandra)  |   |  [cassandra](https://src.fedoraproject.org/modules/cassandra)  |   | [**2017-10-02**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1026) |
-|  `mariadb`  |   |   |   |   |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/893) |
+|  `mariadb`  |   |   |   |   |  10.2  | [**2017-10-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1105) |
 |  `mongodb`  |   |   |   |   |   | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1056) |
 |  `mysql`  |   |  [mysql](https://github.com/modularity-modules/mysql)  |   |  [mysql](https://src.fedoraproject.org/modules/mysql)  |   | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 |  `nginx`  |   |   |   |   |   | [**2017-07-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/722) |
