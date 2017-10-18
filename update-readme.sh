@@ -7,7 +7,7 @@ all_module_builds="latest_builds.txt"
 built_modules="latest_succeeded_builds.txt"
 
 echo "Getting list of module builds, this will take a while"
-#mbs-build overview --finished --limit 800 | tee $all_module_builds
+mbs-build overview --finished --limit 800 | tee $all_module_builds
 grep " ready " $all_module_builds | tee $built_modules
 modules=$(grep -e "^| " README.md | cut -d '|' -f 2| grep "\`" | sed -e "s/\`//g;s/ //")
 
