@@ -12,10 +12,6 @@ grep " ready " $all_module_builds | tee $built_modules
 modules=$(grep -e "^| " README.md | cut -d '|' -f 2| grep "\`" | sed -e "s/\`//g;s/ //")
 
 for module in $modules; do
-  latest_build=`grep -m 1 -e "$module-[^-]*-[^-]*$"  $built_modules | sed -e "s/ */ /"`
-  if [ "x$latest_build" == "x" ]; then
-     continue
-  fi
   module_line=$(grep -e "|[ ]*\`$module\`" README.md)
   field1=""
   field2=""
@@ -29,8 +25,16 @@ for module in $modules; do
   field3="$(echo $module_line | cut -d '|' -f 4 | sed -e 's/[ ]+//g')"
   field4="$(echo $module_line | cut -d '|' -f 5 | sed -e 's/[ ]+//g')"
   field5="$(echo $module_line | cut -d '|' -f 6 | sed -e 's/[ ]+//g')"
-  field6="$(echo $module_line | cut -d '|' -f 7 | sed -e 's/[ ]+//g')"
+  field6="$(echo $module_line | cut -d '|' -f 7 | sed -e 's/\*//g;s/[ ]*//g;')"  # extract stream name
   field7="$(echo $module_line | cut -d '|' -f 8 | sed -e 's/[ ]+//g')"
+  if [ "x$field6" != "x" ]; then
+     latest_build=`grep -m 1 -e "$module-$field6-[^-]*$"  $built_modules | sed -e "s/ */ /"`
+  else
+     latest_build=`grep -m 1 -e "$module-[^-]*-[^-]*$"  $built_modules | sed -e "s/ */ /"`
+  fi
+  if [ "x$latest_build" == "x" ]; then
+     continue
+  fi
   build_id=`echo $latest_build | cut -d ' ' -f 1`
   build_date=`echo $latest_build | cut -d ' ' -f 3 | sed -e "s/T.*//"`
   if [ "x$build_id" != "x" -a "x$build_date" != "x" ]; then
