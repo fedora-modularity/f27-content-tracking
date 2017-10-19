@@ -41,6 +41,6 @@ for module in $modules; do
      field7="[**$build_date**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/$build_id)"
 #        [**2017-10-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1037)
   fi
-  module_str="| $field1 | $field2 | $field3 | $field4 | $field5 | $field6 | $field7 |"
+  module_str="| $field1 | $field2 | $field3 | $field4 | $field5 | **$field6** | $field7 |"
   sed -i -e "s@^|[ ]*\`$module\`.*@$module_str@" README.md
 done
