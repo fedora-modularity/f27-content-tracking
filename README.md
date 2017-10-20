@@ -63,7 +63,7 @@ Build dependencies (not complete even more):
 |  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1164) |
 | `gtk2` | | | | | *f27* | |
 | `gtk3` | | | | | *f27* | |
-|  `help2man`  |  ppisar  |   |   |  [help2man](https://src.fedoraproject.org/modules/help2man)  |  *1.47*  | [**2017-09-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/856) |
+|  `help2man` | | | | | *1.47* | in autotools |
 | `systemtap` | | | | | *3.1* | |
 | `texlive` | | | | | *f27* | |
 
@@ -76,7 +76,7 @@ Repository exists already under https://github.com/modularity-modules/:
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
 |  `cassandra`  |   |  [cassandra](https://github.com/modularity-modules/cassandra)  |   |  [cassandra](https://src.fedoraproject.org/modules/cassandra)  | *3.11* | [**2017-10-02**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1026) |
-|  `mariadb`  |   |   |   |   | **10.2** | [**2017-10-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1105) |
+|  `mariadb`  |   |   |   |   | **10.2** | [**2017-10-19**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1180) |
 |  `mongodb`  |   |   |   |   |  *3.4*  | [**2017-10-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1056) |
 |  `mysql`  |   |  [mysql](https://github.com/modularity-modules/mysql)  |   |  [mysql](https://src.fedoraproject.org/modules/mysql)  |  *7.5*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 |  `nginx`  |   |   |   |   |  *1.10*  | [**2017-07-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/722) |
