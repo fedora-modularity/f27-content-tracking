@@ -25,7 +25,7 @@ What is needed in order to make an image:
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1167) |
+|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-10-23**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1198) |
 
 Runtime dependencies (not complete):
 
@@ -47,7 +47,7 @@ Runtime dependencies (not complete):
 |  `python3-ecosystem`  |   |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem)  |  *unknown*  | [**2017-10-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1097) |
 |  `python3`  |   |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  |  *unknown*  | [**2017-10-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1034) |
 |  `resteasy`  |   |  [resteasy](https://github.com/modularity-modules/resteasy)  |   |  [resteasy](https://src.fedoraproject.org/modules/resteasy)  |  *3.1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
-|  `samba`  |  asn  |  [samba](https://github.com/modularity-modules/samba)  |   |  [samba](https://src.fedoraproject.org/modules/samba)  |  *4.7*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/887) |
+|  `samba`  |  asn  |  [samba](https://github.com/modularity-modules/samba)  |   |  [samba](https://src.fedoraproject.org/modules/samba)  | **4.7** | [**2017-10-23**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1197) |
 |  `sssd`  |  lslebodn, jhrozek  |  [sssd](https://github.com/modularity-modules/sssd)  |   |  [sssd](https://src.fedoraproject.org/modules/sssd)  |  *1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/885) |
 |  `tomcat`  |   |  [tomcat](https://github.com/modularity-modules/tomcat)  |   |  [tomcat](https://src.fedoraproject.org/modules/tomcat)  |  *8*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/870) |
 
@@ -65,7 +65,7 @@ Build dependencies (not complete even more):
 | `gtk3` | | | | | *f27* | |
 |  `help2man` | | | | | *1.47* | in autotools |
 | `systemtap` | | | | | *3.1* | |
-| `texlive` | | | | | *f27* | |
+| `texlive` | | | | | *2016* | |
 
 ## Proposed (stretch goal)
 
