@@ -25,19 +25,19 @@ What is needed in order to make an image:
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-10-23**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1198) |
+|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-10-25**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1221) |
 
 Runtime dependencies (not complete):
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
 |  `389-ds`  |  mreynolds  |  [389-ds](https://github.com/modularity-modules/389-ds)  |   |  [389-ds](https://src.fedoraproject.org/modules/389-ds)  | **1.2** | [**2017-10-12**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1122) |
-|  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  | **f27** | [**2017-10-20**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1188) |
+|  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  | **f27** | [**2017-10-25**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1222) |
 |  `apache-commons`  |   |  [apache-commons](https://github.com/modularity-modules/apache-commons)  |   |  [apache-commons](https://src.fedoraproject.org/modules/apache-commons)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1157) |
 |  `bind`  |  thozza / pemensik  |  [bind](https://github.com/modularity-modules/bind)  |   |  [bind](https://src.fedoraproject.org/modules/bind)  | **9** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1155) |
 |  `fonts`  |   |  [fonts](https://github.com/modularity-modules/fonts)  |   |  [fonts](https://src.fedoraproject.org/modules/fonts)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1161) |
-|  `httpd`  |  luhliari  |  [httpd](https://github.com/modularity-modules/httpd)  |   |  [httpd](https://src.fedoraproject.org/modules/httpd)  | **2.4** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1159) |
-|  `java`  |   |  [java](https://github.com/modularity-modules/java)  |   |  [java](https://src.fedoraproject.org/modules/java)  | **8** | [**2017-10-09**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1085) |
+|  `httpd`  |  luhliari  |  [httpd](https://github.com/modularity-modules/httpd)  |   |  [httpd](https://src.fedoraproject.org/modules/httpd)  | **2.4** | [**2017-10-25**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1216) |
+|  `java`  |   |  [java](https://github.com/modularity-modules/java)  |   |  [java](https://src.fedoraproject.org/modules/java)  | **8** | [**2017-10-25**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1215) |
 |  `krb5`  | - | - | - |  -  | - | In Platform |
 |  `networking-base`  |   |  [networking-base](https://github.com/modularity-modules/networking-base)  |   |  [networking-base](https://src.fedoraproject.org/modules/networking-base)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1160) |
 |  `perl`  |  ppisar, jplesnik  |  [perl](https://github.com/modularity-modules/perl)  |   |  [perl](https://src.fedoraproject.org/modules/perl)  |  *5*  | [**2017-10-02**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1027) |
