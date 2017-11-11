@@ -85,7 +85,7 @@ Repository exists already under https://github.com/modularity-modules/:
 |  `mysql`  |   |  [mysql](https://github.com/modularity-modules/mysql)  |   |  [mysql](https://src.fedoraproject.org/modules/mysql)  |  *7.5*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 |  `nginx`  |   |   |   |   |  *1.10*  | [**2017-07-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/722) |
 |  `nis`  |   |   |   |   | *4.2* | [**2017-07-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/703) |
-|  `nodejs`  |   |   |   |   | **8** | [**2017-11-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1269) |
+|  `nodejs`  |   |   |   |   | **8** | [**2017-11-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1356) |
 | `passenger` | | | | | *5.1* | |
 |  `php`  |   |   |   |   |  *7.1*  | [**2017-07-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/701) |
 | `redis` | | | | | *4.2*| |
