@@ -44,11 +44,11 @@ Runtime dependencies (not complete):
 |  `networking-base`  |   |  [networking-base](https://github.com/modularity-modules/networking-base)  |   |  [networking-base](https://src.fedoraproject.org/modules/networking-base)  | **f27** | [**2017-11-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1342) |
 |  `perl`  |  ppisar, jplesnik  |  [perl](https://github.com/modularity-modules/perl)  |   |  [perl](https://src.fedoraproject.org/modules/perl)  | **5.26** | [**2017-11-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1294) |
 |  `pki`  |  mharmsen |  [pki](https://github.com/modularity-modules/pki)  |   |  [pki](https://src.fedoraproject.org/modules/pki)  |  *10.4*  | [**2017-09-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/915) |
-|  `platform`  |  contyk  |  [platform](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [platform](https://src.fedoraproject.org/modules/platform)  | **f27** | [**2017-11-09**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1351) |
+|  `platform`  |  contyk  |  [platform](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [platform](https://src.fedoraproject.org/modules/platform)  | **f27** | [**2017-11-14**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1366) |
 |  `python2-ecosystem`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem)  | **master** | [**2017-11-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1327) |
-|  `python2`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2](https://src.fedoraproject.org/modules/python2)  | **2.7** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1258) |
+|  `python2`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2](https://src.fedoraproject.org/modules/python2)  | **2.7** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1361) |
 |  `python3-ecosystem`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem)  | **master** | [**2017-11-02**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1288) |
-|  `python3`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  | **3.6** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1256) |
+|  `python3`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  | **3.6** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1360) |
 |  `resteasy`  |   |  [resteasy](https://github.com/modularity-modules/resteasy)  |   |  [resteasy](https://src.fedoraproject.org/modules/resteasy)  |  *3.1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
 |  `samba`  |  asn  |  [samba](https://github.com/modularity-modules/samba)  |   |  [samba](https://src.fedoraproject.org/modules/samba)  | **4.7** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1263) |
 |  `shim`  |  contyk  |  [shim](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [shim](https://src.fedoraproject.org/modules/shim)  | **f27** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1263) |
@@ -64,7 +64,7 @@ Build dependencies (not complete even more):
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1164) |
+|  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  | **f27** | [**2017-11-15**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1369) |
 | `gtk2` | | | | | *f27* | |
 | `gtk3` | | | | | *f27* | |
 |  `help2man` | | | | | *1.47* | in autotools |
