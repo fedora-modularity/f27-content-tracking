@@ -51,7 +51,6 @@ Runtime dependencies (not complete):
 |  `python3`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  | **3.6** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1360) |
 |  `resteasy`  |   |  [resteasy](https://github.com/modularity-modules/resteasy)  |   |  [resteasy](https://src.fedoraproject.org/modules/resteasy)  |  *3.1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
 |  `samba`  |  asn  |  [samba](https://github.com/modularity-modules/samba)  |   |  [samba](https://src.fedoraproject.org/modules/samba)  | **4.7** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1263) |
-|  `shim`  |  contyk  |  [shim](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [shim](https://src.fedoraproject.org/modules/shim)  | **f27** | [**2017-10-31**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1263) |
 |  `sssd`  |  lslebodn, jhrozek  |  [sssd](https://github.com/modularity-modules/sssd)  |   |  [sssd](https://src.fedoraproject.org/modules/sssd)  |  *1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/885) |
 |  `tomcat`  |   |  [tomcat](https://github.com/modularity-modules/tomcat)  |   |  [tomcat](https://src.fedoraproject.org/modules/tomcat)  |  *8*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/870) |
 
