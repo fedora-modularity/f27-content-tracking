@@ -35,7 +35,7 @@ Runtime dependencies (not complete):
 |  `X11-base`  |  karsten  |  [X11-base](https://github.com/modularity-modules/X11-base)  |   |  [X11-base](https://src.fedoraproject.org/modules/X11-base)  | **f27** | [**2017-11-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1303) |
 |  `apache-commons`  |   |  [apache-commons](https://github.com/modularity-modules/apache-commons)  |   |  [apache-commons](https://src.fedoraproject.org/modules/apache-commons)  | **f27** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1157) |
 |  `bind`  |  thozza / pemensik  |  [bind](https://github.com/modularity-modules/bind)  |   |  [bind](https://src.fedoraproject.org/modules/bind)  | **9** | [**2017-10-18**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1155) |
-|  `fonts`  |   |  [fonts](https://github.com/modularity-modules/fonts)  |   |  [fonts](https://src.fedoraproject.org/modules/fonts)  | **f27** | [**2017-11-09**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1354) |
+|  `fonts`  |   |  [fonts](https://github.com/modularity-modules/fonts)  |   |  [fonts](https://src.fedoraproject.org/modules/fonts)  | **f27** | [**2017-11-16**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1384) |
 |  `hardware-support`  |  contyk  |  [hardware-support](https://github.com/modularity-modules/hardware-support)  |   |  [hardware-support](https://src.fedoraproject.org/modules/hardware-support)  | **f27** | [**2017-10-17**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1142) |
 |  `host`  |  contyk  |  [host](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [host](https://src.fedoraproject.org/modules/host)  | **f27** | [**2017-11-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1337) |
 |  `httpd`  |  luhliari  |  [httpd](https://github.com/modularity-modules/httpd)  |   |  [httpd](https://src.fedoraproject.org/modules/httpd)  | **2.4** | [**2017-11-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1331) |
@@ -43,7 +43,7 @@ Runtime dependencies (not complete):
 |  `krb5`  | - | - | - |  -  | - | In Platform |
 |  `networking-base`  |   |  [networking-base](https://github.com/modularity-modules/networking-base)  |   |  [networking-base](https://src.fedoraproject.org/modules/networking-base)  | **f27** | [**2017-11-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1342) |
 |  `perl`  |  ppisar, jplesnik  |  [perl](https://github.com/modularity-modules/perl)  |   |  [perl](https://src.fedoraproject.org/modules/perl)  | **5.26** | [**2017-11-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1294) |
-|  `pki`  |  mharmsen |  [pki](https://github.com/modularity-modules/pki)  |   |  [pki](https://src.fedoraproject.org/modules/pki)  |  *10.4*  | [**2017-09-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/915) |
+|  `pki`  |  mharmsen  |  [pki](https://github.com/modularity-modules/pki)  |   |  [pki](https://src.fedoraproject.org/modules/pki)  | **10.4** | [**2017-11-16**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1383) |
 |  `platform`  |  contyk  |  [platform](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [platform](https://src.fedoraproject.org/modules/platform)  | **f27** | [**2017-11-14**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1366) |
 |  `python2-ecosystem`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem)  | **master** | [**2017-11-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1327) |
 |  `python2`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2](https://src.fedoraproject.org/modules/python2)  | **2.7** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1361) |
@@ -88,5 +88,5 @@ Repository exists already under https://github.com/modularity-modules/:
 | `passenger` | | | | | *5.1* | |
 |  `php`  |   |   |   |   |  *7.1*  | [**2017-07-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/701) |
 | `redis` | | | | | *4.2*| |
-|  `ruby`  |   |   |   |   |  *2.4*  | [**2017-10-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1036) |
+|  `ruby`  |   |   |   |   | **2.4** | [**2017-11-16**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1382) |
 |  `varnish`  |   |   |   |   |  *5.2*  | [**2017-07-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/703) |
