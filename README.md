@@ -19,6 +19,7 @@ Requirements from the Server WG:
 | `freeipa ` | pvoborni | [freeipa](https://github.com/modularity-modules/freeipa) | | [freeipa](https://src.fedoraproject.org/modules/freeipa) | **4.6** | [**2017-09-11**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/929) |
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | [networking-base](https://src.fedoraproject.org/modules/networking-base) | | in networking-base |
 |  `postgresql`  |   |  [postgresql](https://github.com/modularity-modules/postgresql)  |   |  [postgresql](https://src.fedoraproject.org/modules/postgresql)  | **9.6** | [**2017-11-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1322) |
+|  `system-tools`  |   |  [system-tools](https://github.com/modularity-modules/system-tools) |   | [system-tools](https://src.fedoraproject.org/modules/system-tools) | **2017.0** |   |
 |  `udisks2`  |   |  [udisks2](https://github.com/modularity-modules/udisks2)  |   |  [udisks2](https://src.fedoraproject.org/modules/udisks2)  | **2** | [**2017-11-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1275) |
 
 What is needed in order to make an image:
