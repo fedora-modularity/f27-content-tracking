@@ -20,13 +20,13 @@ Requirements from the Server WG:
 | `NetworkManager` | | [networking-base](https://github.com/modularity-modules/networking-base) | - | [networking-base](https://src.fedoraproject.org/modules/networking-base) | | in networking-base |
 |  `postgresql`  |   |  [postgresql](https://github.com/modularity-modules/postgresql)  |   |  [postgresql](https://src.fedoraproject.org/modules/postgresql)  | **9.6** | [**2017-11-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1322) |
 |  `system-tools`  |   |  [system-tools](https://github.com/modularity-modules/system-tools)  |   |  [system-tools](https://src.fedoraproject.org/modules/system-tools)  | **2017.0** | [**2017-11-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1426) |
-|  `udisks2`  |   |  [udisks2](https://github.com/modularity-modules/udisks2)  |   |  [udisks2](https://src.fedoraproject.org/modules/udisks2)  | **2** | [**2017-11-01**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1275) |
+|  `udisks2`  |   |  [udisks2](https://github.com/modularity-modules/udisks2)  |   |  [udisks2](https://src.fedoraproject.org/modules/udisks2)  | **2** | [**2017-11-28**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1451) |
 
 What is needed in order to make an image:
 
 | Module | Owner | Definition | Dep report | Dist git | Stream Names | Successful build |
 |---|---|---|---|---|---|---|
-|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-10-30**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1251) |
+|  `installer`  |   |  [installer](https://github.com/modularity-modules/installer)  |   |   | **f27** | [**2017-11-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1430) |
 
 Runtime dependencies (not complete):
 
@@ -45,11 +45,11 @@ Runtime dependencies (not complete):
 |  `networking-base`  |   |  [networking-base](https://github.com/modularity-modules/networking-base)  |   |  [networking-base](https://src.fedoraproject.org/modules/networking-base)  | **f27** | [**2017-11-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1422) |
 |  `perl`  |  ppisar, jplesnik  |  [perl](https://github.com/modularity-modules/perl)  |   |  [perl](https://src.fedoraproject.org/modules/perl)  | **5.26** | [**2017-11-03**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1294) |
 |  `pki`  |  mharmsen  |  [pki](https://github.com/modularity-modules/pki)  |   |  [pki](https://src.fedoraproject.org/modules/pki)  | **10.4** | [**2017-11-21**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1431) |
-|  `platform`  |  contyk  |  [platform](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [platform](https://src.fedoraproject.org/modules/platform)  | **f27** | [**2017-11-20**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1419) |
+|  `platform`  |  contyk  |  [platform](https://github.com/fedora-modularity/baseruntime-package-lists/data/fedora/devel/hp)  |   |  [platform](https://src.fedoraproject.org/modules/platform)  | **f27** | [**2017-11-27**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1439) |
 |  `python2-ecosystem`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2-ecosystem](https://src.fedoraproject.org/modules/python2-ecosystem)  | **master** | [**2017-11-06**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1327) |
 |  `python2`  |  torsava  |  [python2](https://github.com/modularity-modules/python2)  |   |  [python2](https://src.fedoraproject.org/modules/python2)  | **2.7** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1361) |
 |  `python3-ecosystem`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3-ecosystem](https://src.fedoraproject.org/modules/python3-ecosystem)  | **master** | [**2017-11-02**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1288) |
-|  `python3`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  | **3.6** | [**2017-11-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1360) |
+|  `python3`  |  torsava  |  [python3](https://github.com/modularity-modules/python3)  |   |  [python3](https://src.fedoraproject.org/modules/python3)  | **3.6** | [**2017-11-27**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1444) |
 |  `resteasy`  |   |  [resteasy](https://github.com/modularity-modules/resteasy)  |   |  [resteasy](https://src.fedoraproject.org/modules/resteasy)  |  **3.1**  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/876) |
 |  `samba`  |  asn  |  [samba](https://github.com/modularity-modules/samba)  |   |  [samba](https://src.fedoraproject.org/modules/samba)  | **4.7** | [**2017-11-20**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1418) |
 |  `sssd`  |  lslebodn, jhrozek  |  [sssd](https://github.com/modularity-modules/sssd)  |   |  [sssd](https://src.fedoraproject.org/modules/sssd)  |  *1*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/885) |
@@ -67,7 +67,7 @@ Build dependencies (not complete even more):
 |  `autotools`  |   |   |   |  [autotools](https://src.fedoraproject.org/modules/autotools)  | **f27** | [**2017-11-15**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1369) |
 | `gtk2` | | | | | *f27* | |
 | `gtk3` | | | | | *f27* | |
-|  `help2man` | | | | | *1.47* | in autotools |
+|  `help2man`  |   |   |   |   | **1.47** | [**2017-11-27**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1445) |
 | `systemtap` | | | | | *3.1* | |
 | `texlive` | | | | | *2016* | |
 
@@ -85,7 +85,7 @@ Repository exists already under https://github.com/modularity-modules/:
 |  `mysql`  |   |  [mysql](https://github.com/modularity-modules/mysql)  |   |  [mysql](https://src.fedoraproject.org/modules/mysql)  |  *7.5*  | [**2017-09-05**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/894) |
 |  `nginx`  |   |   |   |   |  *1.10*  | [**2017-07-13**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/722) |
 |  `nis`  |   |   |   |   | *4.2* | [**2017-07-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/703) |
-|  `nodejs`  |   |   |   |   | **8** | [**2017-11-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1356) |
+|  `nodejs`  |   |   |   |   | **8** | [**2017-11-16**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1378) |
 | `passenger` | | | | | *5.1* | |
 |  `php`  |   |   |   |   |  *7.1*  | [**2017-07-07**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/701) |
 | `redis` | | | | | *4.2*| |
