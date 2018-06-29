@@ -91,3 +91,7 @@ Repository exists already under https://github.com/modularity-modules/:
 | `redis` | | | | | *4.2*| |
 |  `ruby`  |   |   |   |   | **2.4** | [**2017-11-16**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/1382) |
 |  `varnish`  |   |   |   |   |  *5.2*  | [**2017-07-10**](https://mbs.fedoraproject.org/module-build-service/1/module-builds/703) |
+| `golang` | lsm5 | | | | | |
+| `container-tools` | lsm5 | | | | | |
+| `docker` | lsm5 | | | | | |
+| `cri-o` | lsm5 | | | | | |
